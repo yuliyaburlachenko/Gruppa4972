@@ -5,9 +5,14 @@
 
 Console.WriteLine("Введите два числа, и узнайте,какое из них большее,а какое меньшее. ");
 Console.Write("Ввести первое число: ");
+//Преобразовываем первое число
 int num1 = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Введите второе число: ");
+//Преобразовываем второе число
 int num2 = Convert.ToInt32(Console.ReadLine());
+
+//Сравниваем два числа
 
 if (num1 > num2) 
 {
