@@ -1,10 +1,13 @@
 ﻿// Задача 13
 //Напишите программу,которая выводит третью цифру заданного числа или ссобщает,что третьей цифры нет.
 
-int number = ReadLine("Введите число: ");
+int a = int.Parse(Console.ReadLine());
 
-int count = number.ToString().Length;
+int i = (int)Math.Log10(a)-2;
 
-Console.Write(MakeArray(number, count));
+Console.WriteLine(i < 0 ? "Третьей цифры нет" : (a % (int)Math.Pow(10, i + 1) / (int)Math.Pow(10, i)).ToString());
+
+Console.ReadLine();
+
 
 
