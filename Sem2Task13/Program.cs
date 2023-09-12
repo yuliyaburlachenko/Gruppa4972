@@ -9,5 +9,3 @@ Console.WriteLine(i < 0 ? "Третьей цифры нет" : (a % (int)Math.Po
 
 Console.ReadLine();
 
-
-
